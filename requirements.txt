@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+pytesseract
+Pillow
+SpeechRecognition
+transformers
+torch
+langchain
+langchain-groq
+python-dotenv
