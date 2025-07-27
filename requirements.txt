@@ -7,7 +7,7 @@ plotly
 pytesseract
 Pillow
 SpeechRecognition
-transformers
+transformers==4.54.0
 torch
 langchain
 langchain-groq
