@@ -32,8 +32,8 @@ warnings.filterwarnings('ignore')
 # For Linux: "/usr/bin/tesseract"
 try:
     # You can set your Tesseract path here
-    TESSERACT_PATH = os.getenv("TESSERACT_PATH", r'/usr/bin/tesseract')  # Default for Linux
-    pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
+    # TESSERACT_PATH = os.getenv("TESSERACT_PATH", your path)  # Default for Linux
+    pytesseract.pytesseract.tesseract_cmd =  r'/usr/bin/tesseract'
 except:
     pass  # Use default path
 
